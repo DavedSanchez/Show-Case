@@ -1,0 +1,33 @@
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\bin\Debug\SocialProj.exe.config
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\bin\Debug\SocialProj.exe
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\bin\Debug\SocialProj.pdb
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\SocialProj.csprojResolveAssemblyReference.cache
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\App.g.cs
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\SocialProj_MarkupCompile.cache
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\SocialProj.g.resources
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\SocialProj.exe
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\SocialProj.pdb
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\Window1.baml
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\Window2.baml
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\Window1.g.cs
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\Window2.g.cs
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\DashTemp.baml
+C:\Users\Trippy\Documents\SharpDevelop Projects\SocialProj\SocialProj\obj\Debug\DashTemp.g.cs
+F:\SocialProj\SocialProj\obj\Debug\SocialProj.csprojResolveAssemblyReference.cache
+F:\SocialProj\SocialProj\obj\Debug\DashTemp.baml
+F:\SocialProj\SocialProj\obj\Debug\Window1.baml
+F:\SocialProj\SocialProj\obj\Debug\Window2.baml
+F:\SocialProj\SocialProj\obj\Debug\DashTemp.g.cs
+F:\SocialProj\SocialProj\obj\Debug\Window1.g.cs
+F:\SocialProj\SocialProj\obj\Debug\Window2.g.cs
+F:\SocialProj\SocialProj\obj\Debug\App.g.cs
+F:\SocialProj\SocialProj\obj\Debug\SocialProj_MarkupCompile.cache
+F:\SocialProj\SocialProj\obj\Debug\SocialProj.g.resources
+F:\SocialProj\SocialProj\obj\Debug\SocialProj.exe
+F:\SocialProj\SocialProj\bin\Debug\SocialProj.exe.config
+F:\SocialProj\SocialProj\bin\Debug\SocialProj.exe
+F:\SocialProj\SocialProj\bin\Debug\SocialProj.pdb
+F:\SocialProj\SocialProj\obj\Debug\SocialProj.pdb
+F:\SocialProj\SocialProj\bin\Debug\Interop.DIRECTORSHOCKWAVELib.dll
+F:\SocialProj\SocialProj\obj\Debug\Interop.DIRECTORSHOCKWAVELib.dll
+F:\SocialProj\SocialProj\obj\Debug\SocialProj.csproj.ResolveComReference.cache

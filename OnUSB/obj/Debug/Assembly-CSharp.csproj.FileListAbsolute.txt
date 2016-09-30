@@ -1,0 +1,63 @@
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\obj\Debug\Assembly-CSharp.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEditor.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.Networking.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Unity.SerializationLogic.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Unity.UNetWeaver.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Unity.CecilTools.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.xml
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEditor.xml
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.UI.xml
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\Temp\bin\Debug\UnityEngine.Networking.xml
+C:\Users\TrippyAK\Documents\UnityProj\Hopefully Fixed (Again)\obj\Debug\Assembly-CSharp.pdb
+F:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+F:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Assembly-CSharp.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Assembly-CSharp.pdb
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEditor.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.Networking.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.UI.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Unity.SerializationLogic.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Unity.DataContract.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Unity.UNetWeaver.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Unity.CecilTools.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.xml
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEditor.xml
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.UI.xml
+F:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.Networking.xml
+F:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.pdb
+E:\UnityProj\OnUSB\Temp\bin\Debug\Assembly-CSharp.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEditor.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.Networking.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.UI.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Unity.SerializationLogic.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Unity.DataContract.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Unity.UNetWeaver.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Unity.CecilTools.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.Pdb.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\Mono.Cecil.Mdb.dll
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.xml
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEditor.xml
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.UI.xml
+E:\UnityProj\OnUSB\Temp\bin\Debug\UnityEngine.Networking.xml
+E:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+E:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.dll
+E:\UnityProj\OnUSB\obj\Debug\Assembly-CSharp.pdb

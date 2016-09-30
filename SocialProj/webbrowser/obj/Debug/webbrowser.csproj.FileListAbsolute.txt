@@ -1,0 +1,11 @@
+F:\SocialProj\webbrowser\bin\Debug\webbrowser.exe.config
+F:\SocialProj\webbrowser\bin\Debug\webbrowser.exe
+F:\SocialProj\webbrowser\bin\Debug\webbrowser.pdb
+F:\SocialProj\webbrowser\obj\Debug\webbrowser.csprojResolveAssemblyReference.cache
+F:\SocialProj\webbrowser\obj\Debug\Window1.baml
+F:\SocialProj\webbrowser\obj\Debug\Window1.g.cs
+F:\SocialProj\webbrowser\obj\Debug\App.g.cs
+F:\SocialProj\webbrowser\obj\Debug\webbrowser_MarkupCompile.cache
+F:\SocialProj\webbrowser\obj\Debug\webbrowser.g.resources
+F:\SocialProj\webbrowser\obj\Debug\webbrowser.exe
+F:\SocialProj\webbrowser\obj\Debug\webbrowser.pdb

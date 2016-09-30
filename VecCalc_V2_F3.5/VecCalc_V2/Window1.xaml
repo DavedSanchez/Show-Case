@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="VecCalc_V2.Window1" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="VecCalc_V2" Height="500" Width="300">
+	<Grid Background="AliceBlue">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="25" />
+			<RowDefinition MinHeight="90" MaxHeight="91"/>
+			<RowDefinition MinHeight="350" MaxHeight="351"/>
+			<RowDefinition MinHeight="15" MaxHeight="16" />
+		</Grid.RowDefinitions>
+		<DockPanel Name="docMain" LastChildFill="False">
+			<Menu Name="menuMain" Height="25" DockPanel.Dock="Top">
+				<MenuItem Header="_File" Name="mFile">
+					<MenuItem Header="E_xit" Name="mExit" Click="mExit_Click" />
+				</MenuItem>
+				<MenuItem Header="_Help" Name="mHelp">
+					<MenuItem Header="_Docs" Name="mDocs" Click="mDocs_Click" />
+					<MenuItem Header="_Legend" Name="mLeg" Click="mLeg_Click" />
+					<MenuItem Header="_Formulas" Name="mForm" Click="mForm_Click" />
+				</MenuItem>
+			</Menu>
+		</DockPanel>
+		
+	<!-- Main Content Area -->
+		
+		<Grid Grid.Row="1">
+			<GroupBox Margin="5,5,5,0" Background="White">
+				<GroupBox.Header>Input</GroupBox.Header>
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition /> <!-- VecA -->
+						<RowDefinition /> <!-- VecB -->
+						<RowDefinition /> <!-- CalcButton -->
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition />
+						<ColumnDefinition />
+						<ColumnDefinition />
+					</Grid.ColumnDefinitions>
+				
+					<TextBlock Text="Vector A:" />
+					<TextBox Name="vecA_i" TextAlignment="Center" Grid.Column="1" Text="{Binding VecA.i}"/>
+					<TextBox Name="vecA_j" TextAlignment="Center" Grid.Column="2" Text="{Binding VecA.j}"/>
+					
+					<TextBlock Text="Vector B:" Grid.Row="1" />
+					<TextBox Name="vecB_i" TextAlignment="Center" Grid.Row="1" Grid.Column="1" Text="{Binding VecB.i}"/>
+					<TextBox Name="vecB_j" TextAlignment="Center" Grid.Row="1" Grid.Column="2" Text="{Binding VecB.j}"/>
+					
+					<Button Name="Calc" Content="Calc" Grid.Row="2" Grid.Column="1" Command="{Binding Calculate}" />
+					
+				</Grid>
+			</GroupBox>
+		</Grid>
+		
+	<!-- End Input -->
+	
+	<!-- Start Calcs -->
+		<Grid Grid.Row="2">
+			<GroupBox Margin="5" Background="White">
+				<GroupBox.Header>Calculations</GroupBox.Header>
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition /> <!-- vecR 0-->
+						<RowDefinition /> <!-- unitA 1-->
+						<RowDefinition /> <!-- unitB 2-->
+						<RowDefinition /> <!-- unitR 3-->
+						<RowDefinition /> <!-- magA 4-->
+						<RowDefinition /> <!-- magB 5-->
+						<RowDefinition /> <!-- magR 6-->
+						<RowDefinition /> <!-- angleA 7-->
+						<RowDefinition /> <!-- angleB 8-->
+						<RowDefinition /> <!-- angleR 9-->
+						<RowDefinition /> <!-- bearA 10-->
+						<RowDefinition /> <!-- bearB 11-->
+						<RowDefinition /> <!-- bearR 12-->
+						<RowDefinition /> <!-- DotPro 13-->
+						<RowDefinition /> <!-- angleDiff 14-->
+						<RowDefinition /> <!-- CrossProduct 15-->
+						<RowDefinition /> <!-- Mag of Cross pro 16 -->
+						<RowDefinition /> <!-- ClearButton 17-->
+					</Grid.RowDefinitions>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition />
+						<ColumnDefinition />
+						<ColumnDefinition />
+					</Grid.ColumnDefinitions>
+			
+					<TextBlock Text="Vector R:" />
+					<TextBox Name="vecR_i" TextAlignment="Center" IsReadOnly="True" Grid.Column="1" Text="{Binding Der.i}"/>			
+					<TextBox Name="vecR_j" TextAlignment="Center" IsReadOnly="True" Grid.Column="2" Text="{Binding Der.j}"/>
+					
+					<TextBlock Text="&#10642; of A:" Grid.Row="1" />
+					<TextBox Name="t_unitAI" TextAlignment="Center" IsReadOnly="True" Grid.Row="1" Grid.Column="1" Text="{Binding VecA.unitI, StringFormat={}{0:0.000000}}"/>
+					<TextBox Name="t_unitAJ" TextAlignment="Center" IsReadOnly="True" Grid.Row="1" Grid.Column="2" Text="{Binding VecA.unitJ, StringFormat={}{0:0.000000}}"/>
+					
+					<TextBlock Text="&#10642; of B:" Grid.Row="2" />
+					<TextBox Name="t_unitBI" TextAlignment="Center" IsReadOnly="True" Grid.Row="2" Grid.Column="1" Text="{Binding VecB.unitI, StringFormat={}{0:0.000000}}"/>
+					<TextBox Name="t_unitBJ" TextAlignment="Center" IsReadOnly="True" Grid.Row="2" Grid.Column="2" Text="{Binding VecB.unitJ, StringFormat={}{0:0.000000}}"/>
+					
+					<TextBlock Text="&#10642; of R:" Grid.Row="3" />
+					<TextBox Name="t_unitRI" TextAlignment="Center" IsReadOnly="True" Grid.Row="3" Grid.Column="1" Text="{Binding Der.unitI, StringFormat={}{0:0.000000}}"/>
+					<TextBox Name="t_unitRJ" TextAlignment="Center" IsReadOnly="True" Grid.Row="3" Grid.Column="2" Text="{Binding Der.unitJ, StringFormat={}{0:0.000000}}"/>
+			
+					<TextBlock Text="||A||:" Grid.Row="4" />
+					<TextBox Name="t_magA" TextAlignment="Center" IsReadOnly="True" Grid.Row="4" Grid.Column="1" Text="{Binding VecA.mag, StringFormat={}{0:0.000000}}" />
+					
+					<TextBlock Text="||B||:" Grid.Row="5" />
+					<TextBox Name="t_magB" TextAlignment="Center" IsReadOnly="True" Grid.Row="5" Grid.Column="1" Text="{Binding VecB.mag, StringFormat={}{0:0.000000}}"/>
+				
+					<TextBlock Text="||R||:" Grid.Row="6" />
+					<TextBox Name="t_magR" TextAlignment="Center" IsReadOnly="True" Grid.Row="6" Grid.Column="1" Text="{Binding Der.mag, StringFormat={}{0:0.000000}}"/>
+				
+					<TextBlock Text="&#x2220; of A:" Grid.Row="7" />
+					<TextBox Name="t_angleA" TextAlignment="Center" IsReadOnly="True" Grid.Row="7" Grid.Column="1" Text="{Binding VecA.angle, StringFormat={}{0:0.000000}}"/>
+					
+					<TextBlock Text="&#x2220; of B:" Grid.Row="8" />
+					<TextBox Name="t_angleB" TextAlignment="Center" IsReadOnly="True" Grid.Row="8" Grid.Column="1" Text="{Binding VecB.angle, StringFormat={}{0:0.000000}}"/>
+				
+					<TextBlock Text="&#x2220; of R:" Grid.Row="9" />
+					<TextBox Name="t_angleR" TextAlignment="Center" IsReadOnly="True" Grid.Row="9" Grid.Column="1" Text="{Binding Der.angle, StringFormat={}{0:0.000000}}"/>
+
+					<TextBlock Text="&#9784; of A:" Grid.Row="10" />
+					<TextBox Name="t_bearA" TextAlignment="Center" IsReadOnly="True" Grid.Row="10" Grid.Column="1" > <!--Text="{Binding VecA.first VecA.bear VecA.last ,StringFormat={}{0:0.00}}"-->
+						<MultiBinding StringFormat=" {0} {1:0.00} {2}" >
+							<Binding Path="VecA.first" />
+							<Binding Path="VecA.bear"/>
+							<Binding Path="VecA.last" />
+						</MultiBinding>
+					</TextBox>						
+					
+					<TextBlock Text="&#9784; of B:" Grid.Row="11" />
+					<TextBox Name="t_bearB" TextAlignment="Center" IsReadOnly="True" Grid.Row="11" Grid.Column="1">
+						<MultiBinding StringFormat=" {0} {1:0.00} {2}" >
+							<Binding Path="VecB.first" />
+							<Binding Path="VecB.bear"/>
+							<Binding Path="VecB.last" />
+						</MultiBinding>
+					</TextBox>
+
+					<TextBlock Text="&#9784; of R:" Grid.Row="12" />
+					<TextBox Name="t_bearR" TextAlignment="Center" IsReadOnly="True" Grid.Row="12" Grid.Column="1">
+						<MultiBinding StringFormat=" {0} {1:0.00} {2}" >
+							<Binding Path="Der.first" />
+							<Binding Path="Der.bear"/>
+							<Binding Path="Der.last" />
+						</MultiBinding>
+					</TextBox>
+				
+					<TextBlock Text="A &#8226; B:" Grid.Row="13" />
+					<TextBox Name="t_dotPro" TextAlignment="Center" IsReadOnly="True" Grid.Row="13" Grid.Column="1" Text="{Binding Der.dot, StringFormat={}{0:0.000000}}"/>
+					
+					<TextBlock Text="&#8710;&#176; of A and B:" Grid.Row="14" />
+					<TextBox Name="t_angleDiff" TextAlignment="Center" IsReadOnly="True" Grid.Row="14" Grid.Column="1" Text="{Binding Der.diff, StringFormat={}{0:0.000000}}" />
+				
+					<TextBlock Text="A &#10799; B: z-axis" Grid.Row="15" />
+					<TextBox Name="t_crossPro" TextAlignment="Center" IsReadOnly="True" Grid.Row="15" Grid.Column="1" Text="{Binding Der.cross, StringFormat={}{0:0.000000}}"/>
+				
+					<TextBlock Text="||&#10799;||" Grid.Row="16" />
+					<TextBox Name="t_crossMag" TextAlignment="Center" IsReadOnly="True" Grid.Row="16" Grid.Column="1" Text="{Binding Der.magCross, StringFormat={}{0:0.000000}}"/>
+					
+					<Button Name="Clear" Content="Clear" Grid.Row="17" Grid.Column="1" Command="{Binding Clear}" />
+				
+				</Grid>
+			</GroupBox>
+		</Grid>
+	
+	<!-- <TextBox Text="Designed and Developed By Daved Sanchez" TextAlignment="Center" Grid.Row="3" /> -->
+	
+	</Grid>
+</Window>

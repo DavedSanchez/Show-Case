@@ -1,0 +1,56 @@
+﻿<Window x:Class="VecCalc_V2.Window2"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	Title="VecCalc_V2" Height="420" Width="360">
+	<Grid>
+		<Grid.Resources>
+			<Style TargetType="Label">
+				<Setter Property="FontWeight" Value="Bold" />
+			</Style>
+		</Grid.Resources>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="25"/> <!-- header -->
+			<RowDefinition Height="25"/> <!-- Res -->
+			<RowDefinition Height="25"/> <!-- Mag -->
+			<RowDefinition Height="25"/> <!-- Unit -->
+			<RowDefinition Height="150"/> <!-- Angle -->
+			<RowDefinition Height="150"/> <!-- Bear -->
+			<RowDefinition Height="25"/> <!-- dotPro -->
+			<RowDefinition Height="25"/> <!-- AngleDiff -->
+			<RowDefinition Height="25"/> <!-- Cross -->
+			<RowDefinition Height="25"/> <!-- Mag of Cross -->
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition />
+			<ColumnDefinition />
+		</Grid.ColumnDefinitions>
+		
+		<TextBlock Name="header_1" TextAlignment="Center" FontWeight="Bold" >Find</TextBlock>
+		<TextBlock Name="header_2" Grid.Column="1" TextAlignment="Center" FontWeight="Bold">Formula</TextBlock>
+	
+		<Label Name="findRes" Grid.Row="1">Resulting Vector</Label>
+		<TextBlock Name="ansRes" Text="{Binding fModel.Res}" Grid.Row="1" Grid.Column="1" />
+	
+		<Label Name="findMag" Grid.Row="2">Magnitude</Label>
+		<TextBlock Name="ansMag" Grid.Row="2" Grid.Column="1" Text="{Binding fModel.Mag}" />
+	
+		<Label Name="findUnit" Grid.Row="3">Unit Vector</Label>
+		<TextBlock Name="ansUnit" Grid.Row="3" Grid.Column="1" Text="{Binding fModel.Unit}" />
+		
+		<Label Name="findAngle" Grid.Row="4">Angle</Label>
+		<TextBlock Name="ansAngle" Grid.Row="4" Grid.Column="1" Text="{Binding fModel.Angle}" />
+	
+		<Label Name="findBear" Grid.Row="5">Bearing</Label>
+		<TextBlock Name="ansBear" Grid.Row="5" Grid.Column="1" Text="{Binding fModel.Bear}" />
+	
+		<Label Name="findDot" Grid.Row="6">Dot Product</Label>
+		<TextBlock Name="ansDot" Grid.Row="6" Grid.Column="1" Text="{Binding fModel.Dot}" />
+	
+		<Label Name="findAndleDiff" Grid.Row="7">Angle Difference</Label>
+		<TextBlock Name="ansAngleDiff" Grid.Row="7" Grid.Column="1" Text="{Binding fModel.AngleDiff}" />
+	
+		<Label Name="findCross" Grid.Row="8">Cross Product</Label>
+		
+		<Label Name="findCrossMag" Grid.Row="9">Magnitude of Cross Product</Label>
+	</Grid>
+</Window>

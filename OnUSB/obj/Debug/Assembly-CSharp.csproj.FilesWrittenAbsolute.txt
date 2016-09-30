@@ -1,0 +1,17 @@
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/UnityEngine.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/UnityEditor.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Lucky/Downloads/Fishing Game/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Lucky/Downloads/Fishing Game/obj/Debug/Assembly-CSharp.dll
+/Users/Lucky/Downloads/Fishing Game/obj/Debug/Assembly-CSharp.dll.mdb

@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Net.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Net.cs" Line="34" Column="35" />
+      <File FileName="Assets\Scripts\GUI_Scr\Menue\PauseMenueScr.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI_Scr\Menue\SoundDisScr.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUI_Scr\UI\BarScr.cs" Line="28" Column="5" />
+      <File FileName="Assets\Scripts\Spawning.cs" Line="33" Column="23" />
+      <File FileName="Assets\Scripts\ObjectDisposal.cs" Line="16" Column="29" />
+      <File FileName="Assets\Scripts\FishingObject.cs" Line="9" Column="16" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{AC96D977-38BF-688A-6E4B-DD238754F9CD}") = "OnUSB", "Assembly-CSharp.csproj", "{C78DA93B-135D-C5FE-C1E5-4C938F6709D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C78DA93B-135D-C5FE-C1E5-4C938F6709D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78DA93B-135D-C5FE-C1E5-4C938F6709D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78DA93B-135D-C5FE-C1E5-4C938F6709D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78DA93B-135D-C5FE-C1E5-4C938F6709D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

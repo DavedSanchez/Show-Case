@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialProj", "SocialProj\SocialProj.csproj", "{1B7CC4DC-3CB4-4A78-A42B-A8B5DF6EB86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webbrowser", "webbrowser\webbrowser.csproj", "{B1EDAF0F-AD2A-4961-9938-4CD0DB2CD4AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B7CC4DC-3CB4-4A78-A42B-A8B5DF6EB86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B7CC4DC-3CB4-4A78-A42B-A8B5DF6EB86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B7CC4DC-3CB4-4A78-A42B-A8B5DF6EB86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B7CC4DC-3CB4-4A78-A42B-A8B5DF6EB86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EDAF0F-AD2A-4961-9938-4CD0DB2CD4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EDAF0F-AD2A-4961-9938-4CD0DB2CD4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EDAF0F-AD2A-4961-9938-4CD0DB2CD4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1EDAF0F-AD2A-4961-9938-4CD0DB2CD4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
